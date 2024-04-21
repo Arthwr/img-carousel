@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Scroll left img carousel</title>
+  </head>
+  <body>
+    <h1>Scroll left img carousel</h1>
+    <div class="checkbox">
+      <label for="auto-carousel"> Auto slide (5ms) </label>
+      <input type="checkbox" id="auto-carousel" name="auto-carousel" />
+    </div>
+    <section>
+      <div class="container">
+        <img src="assets/img-cat.webp" alt="Picture of a cat" />
+        <img
+          src="assets/img-anime.webp"
+          alt="Picture of an anime girl miniature"
+        />
+        <img src="assets/img-cloud.webp" alt="Picture of a cloud" />
+        <img
+          src="assets/img-person.webp"
+          alt="Picture of a person in dark alleway"
+        />
+        <img src="assets/img-tree.webp" alt="Picture of a tree" />
+      </div>
+      <div class="nav-container">
+        <button class="arrow-left" aria-label="Previous"></button>
+        <button class="arrow-right" aria-label="Next"></button>
+      </div>
+    </section>
+  </body>
+  <script src="scripts.js"></script>
+</html>
